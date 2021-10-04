@@ -1,0 +1,16 @@
+.all-classes {
+    padding: 50px;
+  }
+  
+  .card {
+    padding: 10px;
+    height: 450px;
+    border: 1px solid gray;
+    margin-top: 10px;
+  
+  
+  }
+  .text-area {
+    text-align: center;
+  
+  }

@@ -1,0 +1,21 @@
+.card-style {
+    padding: 10px;
+    height: 405px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    background-color: thistle;
+  
+  
+  }
+  .text-area {
+    text-align: center;
+  
+  }
+
+  .card-margin{
+      margin: 25px;
+  }
+  .img{
+    width: 320px;
+    
+  }

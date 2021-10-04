@@ -11,6 +11,6 @@ In the project directory, you can see:
 
 ###You can see the school's available classes and teacher details
 
-###This site i sdeveloped by react route,bootstarp and js.
+###This site is developed by react route,bootstarp and js.
 
 ###This site content all information about the school.

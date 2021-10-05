@@ -4,7 +4,7 @@
   
   .card {
     padding: 10px;
-    height: 450px;
+    height: 430px;
     border: 1px solid gray;
     margin-top: 10px;
   
@@ -13,4 +13,8 @@
   .text-area {
     text-align: center;
   
+  }
+  .classes-img{
+    
+    border-radius: 20px;
   }

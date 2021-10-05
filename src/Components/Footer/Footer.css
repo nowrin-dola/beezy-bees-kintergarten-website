@@ -5,7 +5,7 @@
     cursor: pointer;
   }
   .footer-menu:hover {
-    color: red;
+    color: rgba(255, 0, 0, 0.966);
   }
   .footer-input {
     padding: 8px;
@@ -14,11 +14,12 @@
     background-color: white;
   }
   .footer-container {
-    background-color: #191919;
+    background-color: #271d3d;
     padding: 50px;
     color: rgb(216, 209, 209);
   }
-  .foter-phone-icon {
-    font-size: 30px;
-    color: red;
+ 
+  .fab{
+    font-size: 25px;
+    margin: 10px;
   }

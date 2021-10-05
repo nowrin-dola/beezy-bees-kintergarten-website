@@ -18,7 +18,7 @@ const Classes = () => {
             <Manubar></Manubar>
             <div className="container all-classes">
                 <div className="all-class">
-                    <h1 className='fw-bold text-danger'>Our Classes</h1>
+                    <h1 className='fw-bold text-danger m-3'>Our Classes</h1>
                 </div>
 
                 <div className="classes">
@@ -27,13 +27,15 @@ const Classes = () => {
                             <div className="col-md-4">
                                 <div className="card">
                                     <div className="card-details">
-                                        <img className="w-75" src={cls.picture} alt="" />
+                                        <img className="classes-img w-100" src={cls.picture} alt="" />
                                     </div>
                                     <div className="text-area mt-3">
-                                        <h4 className='text-primary' >{cls.className}</h4>
-                                        <p><span className='fw-bold text-danger'>Classes:</span>  {cls.classes}</p>
-                                        <p> <span className='fw-bold text-danger'>Age Group: </span> {cls.ageGroup}</p>
-                                        <p><span className='fw-bold text-danger'>Price: </span> {cls.price}</p>
+                                        <h4 className='text-primary fw-bold' >{cls.className}</h4>
+                                        <div className='fw-bold'>
+                                            <p><span className='text-danger'>Classes:</span>  {cls.classes}</p>
+                                            <p> <span className=' text-danger'>Age Group: </span> {cls.ageGroup}</p>
+                                            <p><span className='text-danger'>Price: </span> {cls.price}</p>
+                                        </div>
 
                                     </div>
                                 </div>

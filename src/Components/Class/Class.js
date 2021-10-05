@@ -19,7 +19,7 @@ const Class = () => {
     return (
 
         <div>
-            <h1 className='fw-bold text-primary'> Our Best Classes</h1>
+            <h1 className='fw-bold text-primary m-3'> Our Best Classes</h1>
 
             <div className='spaceing'>
                 <div className="row m-5">

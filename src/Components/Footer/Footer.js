@@ -9,24 +9,24 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="left-container text-start">
-                                <h1>Bizzy Bees Kindergarten</h1>
+                                <h1><span className='fw-bold text-danger'>Bizzy</span> <span className='fw-bold text-primary'>Bees</span> <span className='fw-bold text-success'>Kin</span ><span className='fw-bold text-danger'>der</span><span className='fw-bold text-primary'>gar</span><span className='fw-bold text-warning'>ten</span></h1>
+
+                                <h4>Follow Us on:</h4>
                                 <div className="icons-container d-flex text-center ">
                                     <div className="icon">
-                                        {/* <FontAwesomeIcon icon={faInstagramSquare} /> */}
+                                        <i class="fab fa-facebook-square"></i>
                                     </div>
                                     <div className="icon">
-                                        {/* <FontAwesomeIcon icon={faTwitterSquare} /> */}
+                                        <i class="fab fa-instagram"></i>
                                     </div>
                                     <div className="icon">
-                                        {/* <FontAwesomeIcon icon={faYoutube} /> */}
+                                        <i class="fab fa-youtube"></i>
                                     </div>
-                                    <div className="icon">
-                                        {/* <FontAwesomeIcon icon={faFacebookSquare} /> */}
-                                    </div>
+
                                 </div>
                                 <p className="mt-4 ">
                                     <small>
-                                        This is a one of the renowned school in the dhaka city.
+                                        This is a one of the best school in the dhaka city.
                                     </small>
                                 </p>
 
@@ -42,7 +42,7 @@ const Footer = () => {
                                     <li className="footer-menu">About us</li>
                                     <li className="footer-menu">Classes</li>
                                     <li className="footer-menu">Contact us</li>
-                                    <li className="footer-menu">Career</li>
+                                    <li className="footer-menu">Teachers</li>
                                 </ul>
                             </div>
                         </div>
@@ -55,17 +55,13 @@ const Footer = () => {
                                     placeholder="Enter Email"
                                 />
                                 <div className="phone d-flex align-items-center justify-content-center mt-4">
-                                    <div className="foter-phone-icon">
-                                        {/* <FontAwesomeIcon icon={faPhoneVolume} /> */}
-                                    </div>
+
                                     <div>
                                         <h5>+1 7 986 45 677 345</h5>
                                     </div>
                                 </div>
                                 <div className="map d-flex align-items-center justify-content-center">
-                                    <div className="foter-phone-icon">
-                                        {/* <FontAwesomeIcon icon={faMapMarkedAlt} /> */}
-                                    </div>
+
                                     <div>
                                         <p>
                                             Rd. No.4,Dhanmondi

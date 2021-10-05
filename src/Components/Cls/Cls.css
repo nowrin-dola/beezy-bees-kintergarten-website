@@ -15,7 +15,8 @@
   .card-margin{
       margin: 25px;
   }
-  .img{
+  .cls-img{
     width: 320px;
+    border-radius: 20px;
     
   }

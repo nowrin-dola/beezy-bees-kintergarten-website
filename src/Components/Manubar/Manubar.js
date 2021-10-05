@@ -10,7 +10,7 @@ const Manubar = () => {
 
             <Navbar bg="light" variant="light">
 
-                <Container className='d-flex justify-content-between'>
+                <Container className='d-flex justify-content-between '>
                     <div>
                         <LinkContainer to='home'>
                             <Navbar.Brand>
